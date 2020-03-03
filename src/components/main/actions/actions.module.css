@@ -1,0 +1,89 @@
+.listItem {
+  background-color: white;
+  border-radius: 5px;
+  list-style: none;
+  padding: 20px;
+  width: 220px;
+  height: 170px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 22px;
+  /* transform: rotate(90deg); */
+  margin-top: 0px;
+  /* box-sizing: border-box; */
+  /* /* width: 250px;
+  height: 200px; */
+  /* transform: rotate(90deg);
+  transform-origin: right top;  */
+}
+
+.actionsLists {
+  /* display: flex; */
+  /* min-width: 100%; */
+  /* position: absolute; */
+  left: 610px;
+  top: -600px;
+  padding-top: 20px;
+  /* overflow-x: auto;
+  overflow-y: auto;
+  width: 250px;
+  height: 1500px;
+  transform: rotate(-90deg); */
+  /* position:absolute; */
+
+  /* flex-wrap: initial; */
+  /* position: absolute; */
+  /* display: block; */
+  /* top: 0;
+  left: 0;
+
+  /* width: 300px;
+  height: 1100px; */
+  /* overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg);
+  transform-origin: right top;
+  transform:rotate(-90deg) translateY(-100px); */
+}
+.actionsList {
+  width: 1200px;
+  margin-right: 0;
+  position: relative;
+  height: 200px;
+  overflow-x: auto;
+  /* transform: rotate(-90deg); */
+}
+.actionsList::-webkit-scrollbar {
+  /* display: none; */
+  width: 0;
+}
+
+.textItem {
+  display: inline-block;
+  width: 70%;
+}
+
+.itemNumber {
+  color: #213562;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exit{
+    background-image: url("../../../assets/images/х.png");
+    width: 8px;
+    height: 8px;
+    background-size: contain;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  /* max-width: 1370px; */
+  /* overflow-x: hidden; */
+  /* width: 95%; */
+  /* height: 100%; */
+  /* overflow: unset; */
+}
+
+#root{
+    display: flex;
+}
+
+*{
+    margin: 0;
+}
