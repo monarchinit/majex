@@ -47,7 +47,9 @@ const Header = props => {
       </div>
       <div className={css.block}>
         <div
-          style={{ backgroundColor: props.actionOpen && "#e6e6e6" }}
+          style={{
+            backgroundColor: props.actionOpen && "#e6e6e6"
+          }}
           onClick={() => props.changeActionOpen()}
           className={css.boxBtn}
         >
@@ -57,13 +59,17 @@ const Header = props => {
               {m.getMinutes() < 10 ? "0" + m.getMinutes() : m.getMinutes()}
             </span>
             <span className={css.date}>
-              {m.getDay() < 10 ? "0" + (m.getDay()+1) : m.getDay()}:
+              {m.getDay() < 10 ? "0" + (m.getDay() + 1) : m.getDay()}:
               {m.getMonth() < 10 ? "0" + m.getMonth() : m.getMonth()}:
               {m.getFullYear()}
             </span>
           </button>
         </div>
-        <div onClick={() => props.changeInfoVisible()} style={{ backgroundColor: props.infoVisible && "#e6e6e6" }} className={css.boxBtn}>
+        <div
+          onClick={() => props.changeInfoVisible()}
+          style={{ backgroundColor: props.infoVisible && "#e6e6e6" }}
+          className={css.boxBtn}
+        >
           <button className={(css.btn, css.btnInfo)}></button>
         </div>
         <div
